@@ -10,7 +10,7 @@ type BarProps = {
 };
 
 const Bar = styled(Animated.View)`
-  height: 2;
+  height: 0;
   width: ${(props: BarProps) => props.tabWidth};
   position: absolute;
   bottom: 0;
